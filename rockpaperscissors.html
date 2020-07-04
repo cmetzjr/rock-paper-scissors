@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RPS</title>
+</head>
+
+<body>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+    <script>
+        // set the selection options
+        var rps = ["rock", "paper", "scissors"];
+
+        // //loop through ten times
+        // for (var i = 0; i < 10; i++) {
+
+            // player one randomly selected
+            var p1 = (rps[Math.floor(Math.random() * 3)])
+
+            //player two randomly selected
+            var p2 = (rps[Math.floor(Math.random() * 3)])
+
+            //define the possible outcomes and alert them to the browser
+            if (p1 == "rock" && p2 == "paper") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 2 wins!");
+            } else if (p1 == "rock" && p2 == "scissors") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 1 wins!")
+            } else if (p1 == "scissors" && p2 == "paper") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 1 wins!")
+            } else if (p1 == "scissors" && p2 == "rock") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 2 wins!")
+            } else if (p1 == "paper" && p2 == "rock") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 1 wins!")
+            } else if (p1 == "paper" && p2 == "scissors") {
+                alert("Player one is " + p1 + " and player two is " + p2 + ". Player 2 wins!")
+            } else {
+                alert("Both selected "+ p1 + ". It's a draw!")
+            }
+
+
+        // } //close loop
+
+
+        // for (var i = 0; i > myFarm.length; i++) {
+        //     console.log(myFarm[j]);
+
+        //     if (myFarm[j].charAt(0) == "c" || myFarm[j].charAt(0) == "o");
+        //     alert("Starts with C or O");
+        // }
+
+        //this isn't working, get the solved file
+    </script>
+
+</body>
+
+</html>
